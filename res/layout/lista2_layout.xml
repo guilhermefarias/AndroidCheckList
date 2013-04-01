@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:scrollbars="vertical">
+    
+	<LinearLayout android:id="@+id/layout"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >
+	
+	  <CheckBox
+	      android:id="@+id/checkBox1"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="Calça jeans" />
+	
+	  <CheckBox
+	      android:id="@+id/checkBox2"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="Sapato" />
+	
+	  <CheckBox
+	      android:id="@+id/checkBox3"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="Meia" />
+	
+	  <CheckBox
+	      android:id="@+id/checkBox4"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="Bermuda" />
+	
+	  <CheckBox
+	      android:id="@+id/checkBox5"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="Casaco" />
+	
+	  <CheckBox
+	      android:id="@+id/checkBox6"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="Sandalia" />
+	
+	  <CheckBox
+	      android:id="@+id/checkBox7"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="Cueca" />
+
+	  <CheckBox
+	      android:id="@+id/checkBox8"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="Camisa" />
+
+	  <CheckBox
+	      android:id="@+id/checkBox9"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="Boné" />
+
+	  <CheckBox
+	      android:id="@+id/checkBox10"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="Oculos" />
+	 
+	</LinearLayout>
+</ScrollView>
